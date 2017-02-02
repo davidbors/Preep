@@ -1,0 +1,16 @@
+.login {
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+#Lgnbtn {
+	width: 200px;
+	background-color: #4286f4;
+	color: white;
+	border-radius: 6px;
+}
+
+.input {
+	width: 200px;
+}
