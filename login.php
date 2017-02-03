@@ -14,18 +14,18 @@
 </head>
 <body>
 	<ul>
-		<li><a href="#" >Preep</a></li>
-		<li><a href="#">Cauta teme</a></li>
-		<li><a href="#">Ofera teme</a></li>		
-		<li class="right"><a href="#">The Weasel Foundation</a></li>
-		<li class="right"><a href="#">Despre Preep</a></li>
+		<li><a href="index.html" >Preep</a></li>
+		<li><a href="Search.php">Cauta teme</a></li>
+		<li><a href="Offer.php">Ofera teme</a></li>
+		<li class="right"><a href="TWF.php">The Weasel Foundation</a></li>
+		<li class="right"><a href="Despre.php">Despre Preep</a></li>
 		<li class="right"><a href="login.php" class="active">Contul tau</a></li>
 	</ul>
 	<div class="login">
-		<form action="" method="post">
+		<form action="loginprocess.php" method="POST">
 		<p>Autentifică-te cu contul tău Preep!</p>
-		<input type="text" name="username" required placeholder="username" class="input"><br>
-		<input type="password" name="password" required placeholder="password" class="input"><br>
+		<input type="text" id="username" name="username" required placeholder="username" class="input"><br>
+		<input type="password" id="password" name="password" required placeholder="password" class="input"><br>
 		<input type="Submit" name="Submit" value="Login" id="Lgnbtn"><br>
 		<p>Nu ai un cont Preep? Creeaza-ti unul!</p>
 		<button id="Lgnbtn">Sign Up</button>
